@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raphamorim.io/rio/ja/blog</id>
     <title>Rio Terminal Blog</title>
-    <updated>2024-04-18T00:34:00.000Z</updated>
+    <updated>2025-01-17T15:34:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://raphamorim.io/rio/ja/blog"/>
     <subtitle>Rio Terminal Blog</subtitle>
     <icon>https://raphamorim.io/rio/ja/assets/rio-logo.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[New year, new look]]></title>
+        <id>https://raphamorim.io/rio/ja/blog/2025/01/17/new-year-new-look</id>
+        <link href="https://raphamorim.io/rio/ja/blog/2025/01/17/new-year-new-look"/>
+        <updated>2025-01-17T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA[New year, new look!! There you go, Rio terminal got a new logo and icon made by Christian Rocha.]]></summary>
+        <content type="html"><![CDATA[<p>New year, new look!! There you go, Rio terminal got a new logo/icon made by <a href="https://x.com/meowgorithm" target="_blank" rel="noopener noreferrer">Christian Rocha</a>.</p>
+<table><thead><tr><th>Before</th><th>After</th></tr></thead><tbody><tr><td><img alt="Rio logo before" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Rio-terminal-logo.png/440px-Rio-terminal-logo.png" width="880px"></td><td><img decoding="async" loading="lazy" alt="Rio logo after" src="https://raphamorim.io/rio/ja/assets/images/rio-logo-c13ca93614b2ac6b8007481dbde2ac14.png" width="800" height="800" class="img_ev3q"></td></tr></tbody></table>
+<p>The first logo was made by myself but lacked a chef touch that Christian masterfully gave to it!</p>
+<p>You may have already noticed on MacOS that if you're using version 0.2.24, in the upcoming versions it will be patched to Linux, BSD and Microsoft Windows.</p>
+<p>Ok, but what if I like the new logo but I am attached to the old logo? No worries, I am working on a Rio API for changing app icons via configuration and bult-in.</p>
+<p>That's it for today folks :)</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Looking ahead to 0.1.0]]></title>
         <id>https://raphamorim.io/rio/ja/blog/2024/04/18/looking-ahead-to-0.1.0</id>
@@ -61,7 +74,7 @@
 <p>After v0.0.19, Rio will start to provide a custom internal settings UI, where you can manage your configuration without edit the file.</p>
 <p><img decoding="async" loading="lazy" alt="Settings UI" src="https://raphamorim.io/rio/ja/assets/images/demo-settings-9983cd7afab3b90b642cd4beb0de7269.png" width="852" height="570" class="img_ev3q"></p>
 <p>Note: Not all the configuration options has been ported, so you would still need to use the config file for specific configuration updates.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="highlight-6-error-handling">Highlight #6: Error handling<a href="https://raphamorim.io/rio/ja/blog/2023/09/19/release-0.0.19#highlight-6-error-handling" class="hash-link" aria-label="Highlight #6: Error handling への直�接リンク" title="Highlight #6: Error handling への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="highlight-6-error-handling">Highlight #6: Error handling<a href="https://raphamorim.io/rio/ja/blog/2023/09/19/release-0.0.19#highlight-6-error-handling" class="hash-link" aria-label="Highlight #6: Error handling への直接リンク" title="Highlight #6: Error handling への直接リンク">​</a></h2>
 <p>Configuration errors, command errors, font not found and etecetera are not silent anymore. This version introduces an UI for error handling.</p>
 <p><img decoding="async" loading="lazy" alt="Error handling" src="https://raphamorim.io/rio/ja/assets/images/demo-error-handling-095b418bb1da6ebc7339b39039145e7d.png" width="1424" height="1024" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="highlight-7-adaptive-theme">Highlight #7: Adaptive theme<a href="https://raphamorim.io/rio/ja/blog/2023/09/19/release-0.0.19#highlight-7-adaptive-theme" class="hash-link" aria-label="Highlight #7: Adaptive theme への直接リンク" title="Highlight #7: Adaptive theme への直接リンク">​</a></h2>
